@@ -14,3 +14,6 @@ a:visited {
 a:hover {
   text-decoration: underline;
 }
+.uppercase {
+  text-transform: uppercase;
+}
