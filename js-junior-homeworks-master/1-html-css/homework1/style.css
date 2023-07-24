@@ -1,0 +1,16 @@
+.footer {
+  color:darkgray;
+}
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: cadetblue;
+}
+a:hover {
+  text-decoration: underline;
+}
