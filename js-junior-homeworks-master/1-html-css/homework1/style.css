@@ -13,7 +13,33 @@ a:visited {
 }
 a:hover {
   text-decoration: underline;
+  color: chocolate;
 }
 .uppercase {
   text-transform: uppercase;
+}
+.menu li {
+  display: inline;
+  font-size: 3em;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.work {
+  font-size: 1.2em;
+}
+.work1 {
+  border: 1px dashed greenyellow;
+  padding: 20px;
+  margin: 10px;
+}
+.work2 {
+  border: 1px dashed greenyellow;
+  padding: 30px;
+  margin: 20px;
+}
+.work3 {
+  border: 1px dashed greenyellow;
+  padding: 40px;
+  margin: 30px;
 }
