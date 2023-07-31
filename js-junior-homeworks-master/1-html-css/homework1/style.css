@@ -33,20 +33,16 @@ a:hover {
 }
 .work_item {
   font-size: 1em;
-}
-.work_item1 {
   border: 1px dashed greenyellow;
   padding: 2px;
+}
+.work_item1 {
   margin: 10px;
 }
 .work_item2 {
-  border: 1px dashed greenyellow;
-  padding: 2px;
   margin: 20px;
 }
 .work_item3 {
-  border: 1px dashed greenyellow;
-  padding: 2px;
   margin: 30px;
 }
 .work_header {
@@ -56,8 +52,16 @@ a:hover {
   font-size: 1em;
 }
 .header {
-  background: rgb(174,174,185);
-  background: linear-gradient(170deg, rgba(174,174,185,1) 0%, rgba(236,236,236,1) 18%, rgba(118,176,95,1) 40%, rgba(145,8,165,1) 63%, rgba(213,68,112,1) 83%, rgba(0,212,255,1) 100%);
+  background: rgb(174, 174, 185);
+  background: linear-gradient(
+    170deg,
+    rgba(174, 174, 185, 1) 0%,
+    rgba(236, 236, 236, 1) 18%,
+    rgba(118, 176, 95, 1) 40%,
+    rgba(145, 8, 165, 1) 63%,
+    rgba(213, 68, 112, 1) 83%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 .video-background {
   padding: 70px;
@@ -79,4 +83,13 @@ a:hover {
   text-align: center;
   position: relative;
   background-color: blueviolet;
+}
+.work_img {
+  border-width: 2px;
+  border-style: dotted;
+  width: 200px;
+}
+.work_img:hover {
+  opacity: 0.5;
+  border: 2px solid blue;
 }
