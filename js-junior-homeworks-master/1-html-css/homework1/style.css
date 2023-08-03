@@ -112,7 +112,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: -15;
+  margin: 1px;
 }
 .products-item {
   flex-basis: 500px;
@@ -121,7 +121,7 @@ a:hover {
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgb(87, 146, 138);
   margin-bottom: 40px;
-  margin: 5;
+  margin: 16px;
   padding: 20px;
 }
 .products-item h2 {
@@ -136,7 +136,7 @@ a:hover {
   opacity: 1;
 }
 .products-link img {
-  width: 33pc;
+  width: 500px;
 }
 .products-link span {
   display: inline-block;
@@ -144,7 +144,7 @@ a:hover {
 .img-bg {
   background-color: bisque;
   padding: 20px;
-  height: 200;
+  height: 200px;
   background-image: url(777.jpg);
   position: relative;
 }
