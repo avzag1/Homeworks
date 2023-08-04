@@ -176,3 +176,30 @@ opacity: 1;
   margin: 0 auto;
   width: 800;
 }
+.header-tab {
+  text-align: center;
+}
+.container-tab {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.table-options{
+  border-collapse: collapse;
+  color:rgb(56, 24, 1);
+}
+.table-options td,
+.table-options th {
+border: 2px solid rgb(41, 1, 78);
+padding: 10px;
+}
+.sum {
+  text-align: center;
+  font-weight: bold;
+}
+.table-options th {
+  background-color: aquamarine;
+}
+.table-options td {
+  background-color: rgb(234, 241, 239);
+}
