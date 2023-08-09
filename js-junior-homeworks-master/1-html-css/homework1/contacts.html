@@ -19,8 +19,8 @@
             name="name"
             id="name"
             placeholder="Введите имя"
-            min="2"
-            max="30"
+            minlength="2"
+            maxlength="30"
           />
         </div>
         <div class="form-row">
@@ -38,21 +38,21 @@
           <select name="project-cost" id="project-cost">
             <option value="0-50000">50001-200000 руб.</option>
             <option value="50001-200000">50001-200000 руб.</option>
-            <option value="over 200000">свыше 200000 руб.</option>
+            <option value="over">свыше 200000 руб.</option>
           </select>
         </div>
         <div class="form-row">
           <fieldset>
             <legend>Используемые технолгии</legend>
-            <label> <input type="checkbox" id="HTML" >HTML</label>
-            <label> <input type="checkbox" id="CSS" >CSS</label>
-            <label> <input type="checkbox" id="JavaScript" >JavaScript</label>
-            <label> <input type="checkbox" id="Node.js" >Node.js</label>
+            <label> <input type="checkbox" >HTML</label>
+            <label> <input type="checkbox" >CSS</label>
+            <label> <input type="checkbox" >JavaScript</label>
+            <label> <input type="checkbox" >Node.js</label>
           </fieldset>
         </div>
         <div class="form-row">
           <label for="start-project-date">Дата начала проекта</label>
-          <input type="date" name="start-project-date" min="2023-01-01">
+          <input type="date" name="start-project-date" id="start-project-date min="2023-01-01">
         </div>
         <div class="form-row">
           <button type="submit"><b>Отправить форму</b></button>
