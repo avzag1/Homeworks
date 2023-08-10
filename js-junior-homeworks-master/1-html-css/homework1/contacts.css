@@ -1,0 +1,120 @@
+.form-container {
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+*:focus {
+  outline: none;
+}
+.form-container h1 {
+  margin-bottom: 30px;
+}
+.form-row,
+.form-row select div
+{
+  margin-bottom: 35px;
+}
+input[type=text]
+{
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid rgb(180, 173, 238);
+  border-radius: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+  input[type=date]
+{
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid rgb(180, 173, 238);
+  border-radius: 15px;
+  font-size: 1.3em;
+  box-sizing: border-box;
+}
+select{
+  width: 170px;
+  padding: 10px;
+  border: 2px solid rgb(180, 173, 238);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+fieldset{
+  width: 340px;
+  padding: 10px;
+  border-color: rgb(180, 173, 238);
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+textarea{
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgb(180, 173, 238);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+input[type="text"]:hover
+{
+  border-color: rgb(164, 250, 4);
+  background-color: blanchedalmond;
+}
+input[type="text"]:focus
+{
+  padding: 15px;
+  border-color: rgb(250, 4, 24);
+  background-color: rgb(236, 234, 245);
+}
+textarea:hover
+{
+  border-color: rgb(164, 250, 4);
+  background-color: blanchedalmond;
+}
+textarea:focus
+{
+  padding: 15px;
+  border-color: rgb(250, 4, 24);
+  background-color: rgb(236, 234, 245);
+}
+select:hover
+{
+  border-color: rgb(164, 250, 4);
+  background-color: blanchedalmond;
+}
+select:focus
+{
+  padding: 15px;
+  border-color: rgb(250, 4, 24);
+  background-color: rgb(236, 234, 245);
+}
+fieldset:hover
+{
+  border-color: rgb(164, 250, 4);
+  background-color: blanchedalmond;
+}
+input[type="date"]:hover
+{
+  border-color: rgb(164, 250, 4);
+  background-color: blanchedalmond;
+}
+input[type="date"]:focus
+{
+  padding: 15px;
+  border-color: rgb(250, 4, 24);
+  background-color: rgb(236, 234, 245);
+}
+button {
+  padding: 10px;
+  border: none;
+  color: white;
+  font-weight: 600px;
+  border-radius: 20px;
+width: 200px;
+margin-bottom: 10px;
+cursor: pointer;
+}
+button[type=submit]{
+  background-color: green;
+}
+button[type=reset]{
+  background-color: red;
+}
