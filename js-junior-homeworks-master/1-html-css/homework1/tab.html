@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Таблица</title>
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 class="header-tab">Баланс на 31 декабря 2022 года</h2>
+    <div class="container-tab">
+      <div>
+        <table class="table-options">
+          <thead>
+          <caption>
+            Актив
+          </caption>
+        </thead>
+          <tbody>
+              <tr>
+                <th colspan="2">Наименование показателя</th>
+                <th>Сумма</th>
+              </tr>
+            <tr>
+              <td class="italic" colspan="3">Упрощенный вид</td>
+              <!--Как указать два класса одновременно? Например, чтобы выровнять по центру.-->
+            </tr>
+            <tr>
+              <td colspan="2">Основные средства</td>
+              <td class="sum">10</td>
+            </tr>
+            <tr>
+              <td colspan="2">Материальные запасы</td>
+              <td class="sum">50</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Денежные средства</td>
+              <td>р/с</td>
+              <td class="sum">5</td>
+            </tr>
+            <tr>
+              <td>касса</td>
+              <td class="sum">5</td>
+            </tr>
+            <tr>
+              <td colspan="2">Итого</td>
+              <td class="sum">65</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <table class="table-options">
+          <caption>
+            Пассив
+          </caption>
+          <thead>
+            <tr>
+              <th colspan="2">Наименование показателя</th>
+              <th>Сумма</th>
+            </tr>
+          </thead>
+          <tr>
+            <td class="italic" colspan="3">Упрощенный вид</td>
+          </tr>
+          <tbody>
+            <tr>
+              <td colspan="2">Уставный капитал</td>
+              <td class="sum">20</td>
+            </tr>
+            <tr>
+              <td colspan="2">Краткосрочная задолженность</td>
+              <td class="sum">15</td>
+            </tr>
+            <tr>
+              <td colspan="2">Долгосрочная задолженность</td>
+              <td class="sum">30</td>
+            </tr>
+            <tr>
+              <td colspan="2">Итого</td>
+              <td class="sum">65</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
