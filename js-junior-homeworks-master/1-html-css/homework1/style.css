@@ -122,9 +122,8 @@ a:hover {
   margin-bottom: 40px;
   margin: 16px;
   padding: 20px;
-  transition-property: all;
-  transition-duration: 2s;
-  transition-delay: 1s;
+  transition-property: background-color border border-radius;
+  transition-duration: .3s;
   transition-timing-function: linear;
   position: relative;
 }
@@ -132,7 +131,6 @@ a:hover {
   background-color: rgb(242, 244, 247);
   border: 7px solid rgb(147, 177, 233);
   border-radius: 40px;
-  width: 1.3em; /*Почему не срабатывает? Если удалить эту строку, то ничего не изменится.*/
   margin: 1px;
 }
 .products-item h2 {
