@@ -7,3 +7,11 @@
 .uppercase {
   text-transform: uppercase;
 }
+.block {
+  display: block;
+}
+.clear-fix-inner::after {
+  content: "";
+  display: block;
+  clear: both;
+}
