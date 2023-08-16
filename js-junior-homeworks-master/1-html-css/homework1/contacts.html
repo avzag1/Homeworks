@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Интернет-магазин домашних растений</title>
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contacts.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Контактные данные</h1>
+      <form action="#" method="get">
+        <div class="form-row">
+          <label for="name">Имя</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Введите имя"
+            minlength="2"
+            maxlength="30"
+          />
+        </div>
+        <div class="form-row">
+          <label for="question">Вопрос</label>
+          <textarea
+            name="question"
+            id="question"
+            cols="100"
+            rows="5"
+            placeholder="Опишите вопрос"
+          ></textarea>
+        </div>
+        <div class="form-row">
+          <label for="project-cost">Примерная стоимость проекта</label>
+          <select name="project-cost" id="project-cost">
+            <option value="0-50000">50001-200000 руб.</option>
+            <option value="50001-200000">50001-200000 руб.</option>
+            <option value="over">свыше 200000 руб.</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <fieldset>
+            <legend>Используемые технолгии</legend>
+            <label> <input type="checkbox" >HTML</label>
+            <label> <input type="checkbox" >CSS</label>
+            <label> <input type="checkbox" >JavaScript</label>
+            <label> <input type="checkbox" >Node.js</label>
+          </fieldset>
+        </div>
+        <div class="form-row">
+          <label for="start-project-date">Дата начала проекта</label>
+          <input type="date" name="start-project-date" id="start-project-date min="2023-01-01">
+        </div>
+        <div class="form-row">
+          <button type="submit"><b>Отправить форму</b></button>
+          <button type="reset">Сброс формы</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
