@@ -1,5 +1,6 @@
 .container-menu {
   display: block;
+  padding-left: 8px;
 }
 .menu li {
   display: block;
@@ -43,4 +44,10 @@
   position: sticky;
   top: 0;
   z-index: 15;
+}
+.menu-lines{
+  padding-left: 2px;
+}
+.products-item {
+  pointer-events: none;
 }
