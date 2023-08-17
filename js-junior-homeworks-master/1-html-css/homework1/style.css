@@ -170,6 +170,9 @@ a:hover {
   opacity: 1;
 }
 .products-link img {
+  width:100%;
+}
+.products-link-episcia img {
   width: 500px;/*Если напишу width: 100%, то первая картинка не заполнит блок, т.к.ее разрешение меньше ширины блока.*/
 }
 .products-link span {
