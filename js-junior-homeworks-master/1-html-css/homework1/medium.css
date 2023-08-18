@@ -2,7 +2,7 @@
   display: block;
   padding-left: 8px;
 }
-.menu li {
+.header-top__menu li {
   display: block;
   width: 100%;
   height: 100%;
@@ -10,13 +10,13 @@
   background-color: rgb(253, 220, 237);
   border: none;
 }
-.menu-lines-item {
+.container-menu__menu-lines_menu-lines-item {
   width: 97%;
 }
-.menu-lines h1 {
+.container-menu__menu-lines h1 {
   width: 96%;
 }
-.container {
+.header-top__container {
   margin: 0 auto;
   background-color: var(--menu-bg);
   overflow: hidden;
@@ -25,11 +25,12 @@
   max-height: 0;
   transition: max-height 0.7s linear;
 }
-.menu a:hover {
+.header-top__menu a:hover {
   background-color: var(--menu-hover);
-  width: 100%;
+  width: 100%; /*Почему не срабатывает, и приходится применять padding-right: 100%?"*/
+  padding-right: 100%;
 }
-.lines-container {
+.header-top__lines-container {
   padding: 40px 20px;
   float: right;
   cursor: pointer;
@@ -45,9 +46,9 @@
   top: 0;
   z-index: 15;
 }
-.menu-lines{
+.container-menu__menu-lines {
   padding-left: 2px;
 }
-.products-item {
+.container-menu__products_products-item {
   pointer-events: none;
 }
