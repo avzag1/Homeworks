@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Интернет-магазин домашних растений</title>
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="global.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="project.css" />
+    <link rel="stylesheet" href="cosmetic.css" />
     <link rel="stylesheet" href="medium.css" media="screen and
     (max-width:1110px)"/*Изменил ваше задание под мои размеры элементов
     (увеличил max-width до 1100px), т.к. картинка с цветком в рамке при сжатии
     экрана уходит вправо и появляется прокрутка. Корректно ли это? Как сделать
     правильно?*/ />
   </head>
-  <body class="body">
+  <body class="body" id="header">
     <!--<div class="work">
     <div class="work_item work_item1">
     <h4 class="work_header"> Сайт-визитка</h4>
@@ -37,21 +39,21 @@
   </video>
   <div class="h2_title">Как ухаживать за цветами</div>
 </div>-->
-    <div class="header-top" id="header">
+    <div class="header-top">
       <a href="#" class="logo">Цветочный<br />дворик</a>
       <input class="menu-checkbox" id="menu-checkbox" type="checkbox" />
       <label for="menu-checkbox" class="lines-container"
         ><span class="lines-item"></span
       ></label>
       <div class="container">
-        <ul class="menu">
+        <ul class="menu-base menu-project">
           <li><a href="#" class="link-menu">Главная</a></li>
           <li><a href="#" class="link-menu">Отзывы</a></li>
           <li><a href="#" class="link-menu">Контакты</a></li>
         </ul>
       </div>
     </div>
-    <div class="header">
+    <div class="header-base header-project">
       <h1>Интернет-магазин домашних цветов</h1>
     </div>
     <p class="clear-fix-inner">
@@ -103,7 +105,7 @@
             </h1>
           </div>
           <div class="products">
-            <div class="products-item">
+            <div class="products-item-project products-item-cosmetic">
               <div class="animation-sun-appearance-item1">
                 <img
                   src="sun.png"
@@ -145,7 +147,7 @@
                 <span>Подробнее</span>
               </a>
             </div>
-            <div class="products-item">
+            <div class="products-item-project products-item-cosmetic">
               <div class="img-bg">
                 <img
                   src="sun.png"
@@ -165,7 +167,7 @@
                 <span>Подробнее</span>
               </a>
             </div>
-            <div class="products-item">
+            <div class="products-item-project products-item-cosmetic">
               <div class="animation-delay">
                 <div class="animation-sun-appearance-item3">
                   <img

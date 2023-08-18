@@ -2,13 +2,15 @@
   display: block;
   padding-left: 8px;
 }
-.menu li {
+.menu-project li {
   display: block;
   width: 100%;
   height: 100%;
-  text-align: left;
   background-color: rgb(253, 220, 237);
   border: none;
+}
+.menu-base li {
+  text-align: left;
 }
 .menu-lines-item {
   width: 97%;
@@ -25,7 +27,7 @@
   max-height: 0;
   transition: max-height 0.7s linear;
 }
-.menu a:hover {
+.menu-base a:hover {
   background-color: var(--menu-hover);
   width: 100%;
 }
@@ -45,9 +47,9 @@
   top: 0;
   z-index: 15;
 }
-.menu-lines{
+.menu-lines {
   padding-left: 2px;
 }
-.products-item {
+.products-item-project {
   pointer-events: none;
 }
