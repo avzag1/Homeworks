@@ -1,0 +1,239 @@
+html {
+  scroll-behavior: smooth;
+}
+.body {
+  margin: 0;
+}
+.footer {
+  color: darkgray;
+  margin-left: 40px;
+}
+.reviews {
+  margin-left: 30px;
+}
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 10px;
+}
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: cadetblue;
+}
+a:hover {
+  text-decoration: underline;
+  color: chocolate;
+}
+.clear-fix-inner {
+  text-align: justify;
+}
+.menu-base li {
+  font-size: 3em;
+  background-color: #eaeafa;
+  text-align: center;
+}
+.header-base {
+  text-align: center;
+}
+.products-container {
+  text-align: center;
+  padding: 20px;
+}
+.products-container h1 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1px;
+}
+.products-item-base:hover {
+  background-color: rgb(242, 244, 247);
+  border: 7px solid rgb(147, 177, 233);
+  border-radius: 40px;
+  margin: 1px;
+}
+.products-item-base h2 {
+  font-size: 1.5em;
+}
+.products-link {
+  display: inline-block;
+  text-align: center;
+  opacity: 0.7;
+}
+.products-link:hover {
+  opacity: 1;
+}
+.products-link img {
+  width: 100%;
+}
+.products-link span {
+  display: inline-block;
+}
+.img-bg {
+  background-color: bisque;
+  padding: 20px;
+  height: 200px;
+  background-image: url(777.jpg);
+  position: relative;
+}
+.fixed-to-top {
+  width: 50px;
+  text-align: center;
+  background-color: rgb(226, 253, 198);
+  border: 1px solid rgb(182, 238, 123);
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  opacity: 0.7;
+}
+.fixed-to-top a {
+  display: block;
+  padding: 5px;
+}
+.fixed-to-top:hover {
+  opacity: 1;
+}
+.container-menu {
+  display: flex;
+}
+.menu-lines {
+  margin-top: 0px;
+  font-size: 35px;
+  text-align: left;
+  padding-left: 40px;
+}
+.menu-lines-item {
+  list-style: none;
+  width: 450px;
+  background-color: #f0faf3;
+  padding-left: 0px;
+}
+.menu-lines-item li {
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-bottom: 25px;
+  border-bottom: 1px solid;
+  position: relative;
+  display: block;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+.menu-lines-item {
+  padding-top: 25px;
+}
+.menu-lines h1 {
+  font-size: 1.5em;
+  background-color: rgb(216, 240, 194);
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  margin-bottom: 0px;
+  width: 440px;
+}
+.menu-lines ul {
+  margin-top: 0px;
+  padding: 0px;
+}
+.link-katalog:link {
+  color: black;
+  font-weight: 100px;
+}
+.link-katalog:hover {
+  text-decoration: none;
+}
+.link-katalog:visited {
+  color: black;
+}
+.logo:any-link {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(2, 151, 2);
+  text-decoration: none;
+  font-style: oblique;
+  font-weight: 600;
+}
+.menu-base {
+  margin-right: 20px;
+}
+:root {
+  --menu-icon: grey;
+  --menu-bg: rgb(253, 220, 237);
+  --menu-hover: rgb(255, 214, 219);
+  --menu-font-size: 40px;
+}
+.header-top {
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  background-color: var(--menu-bg);
+  box-shadow: 0 20px 20px -20px var(--menu-hover);
+}
+element-style {
+  margin: 0;
+}
+.logo {
+  display: inline-block;
+  color: var(--menu-icon);
+  font-size: var(--menu-font-size);
+  text-transform: capitalize;
+  margin-left: 45px;
+  margin-bottom: 30px;
+}
+.menu-base a {
+  display: block;
+  padding: 20px;
+  color: rgb(71, 148, 71);
+}
+.menu-base a:hover {
+  background-color: transparent;
+  color: green;
+  text-decoration: none;
+}
+.lines-container {
+  display: none;
+}
+.lines-item {
+  background-color: var(--menu-icon);
+  display: block;
+  height: 2px;
+  width: 36px;
+  position: relative;
+}
+.lines-item::before,
+.lines-item::after {
+  background-color: var(--menu-icon);
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: "";
+  transition: all 0.1s linear;
+}
+.lines-item::before {
+  top: 12px;
+}
+.lines-item::after {
+  top: -12px;
+}
+.menu-checkbox {
+  display: none;
+}
+.menu-checkbox:checked ~ .container {
+  max-height: 100%;
+}
+.menu-checkbox:checked ~ .lines-container .lines-item {
+  background: transparent;
+}
+.menu-checkbox:checked ~ .lines-container .lines-item::before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+.menu-checkbox:checked ~ .lines-container .lines-item::after {
+  transform: rotate(45deg);
+  top: 0;
+}

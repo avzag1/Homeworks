@@ -1,0 +1,42 @@
+.products-item-cosmetic {
+  transition-property: background-color border border-radius;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+@keyframes sun-appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes delay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.animation-sun-appearance-item1 {
+  animation-name: sun-appearance;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+}
+.animation-sun-appearance-item3 {
+  animation-name: sun-appearance;
+  animation-duration: 8s;
+  animation-delay: 8s;
+  animation-timing-function: linear;
+}
+.animation-delay {
+  animation-name: delay;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+}
+.sun-appearance {
+  position: absolute;
+  right: 120px;
+  top: -20px;
+}
