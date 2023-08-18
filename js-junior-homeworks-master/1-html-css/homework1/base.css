@@ -6,6 +6,10 @@ html{
 }
 .footer {
   color: darkgray;
+  margin-left: 40px;
+}
+.reviews{
+  margin-left: 30px;
 }
 p {
   font-family: Helvetica, Arial, sans-serif;
@@ -166,7 +170,10 @@ a:hover {
   opacity: 1;
 }
 .products-link img {
-  width: 500px;
+  width:100%;
+}
+.products-link-episcia img {
+  width: 500px;/*Если напишу width: 100%, то первая картинка не заполнит блок, т.к.ее разрешение меньше ширины блока.*/
 }
 .products-link span {
   display: inline-block;
@@ -355,6 +362,7 @@ element-style {
   font-size: var(--menu-font-size);
   text-transform: capitalize;
   margin-left: 45px;
+  margin-bottom: 30px;
 }
 .menu a {
   display: block;
