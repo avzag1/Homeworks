@@ -10,10 +10,10 @@
   background-color: rgb(253, 220, 237);
   border: none;
 }
-.container-menu__menu-lines_menu-lines-item {
+.menu-lines__menu-lines-item {
   width: 97%;
 }
-.container-menu__menu-lines h1 {
+.menu-lines h1 {
   width: 96%;
 }
 .header-top__container {
@@ -46,9 +46,9 @@
   top: 0;
   z-index: 15;
 }
-.container-menu__menu-lines {
+.menu-lines {
   padding-left: 2px;
 }
-.container-menu__products_products-item {
+.products-item {
   pointer-events: none;
 }

@@ -15,7 +15,6 @@
     />
   </head>
   <body class="body" id="header">
-    <!--Если убрать id, то перестанет работать fixed-to-top. Чем заменить id?-->
     <!--<div class="work">
     <div class="work_item work_item1">
     <h4 class="work_header"> Сайт-визитка</h4>
@@ -40,20 +39,20 @@
   <div class="h2_title">Как ухаживать за цветами</div>
 </div>-->
     <div class="header-top">
-      <a href="#" class="header-top___logo">Цветочный<br />дворик</a>
+      <a href="#" class="header-top__logo">Цветочный<br />дворик</a>
       <input
         class="header-top__menu-checkbox"
         id="menu-checkbox"
         type="checkbox"
-      /><!--Если убрать id, то как быть с lable?-->
+      />
       <label for="menu-checkbox" class="header-top__lines-container"
         ><span class="header-top__menu-checkbox_lines-item"></span
       ></label>
       <div class="header-top__container">
         <ul class="header-top__menu">
-          <li><a href="#" class="header-top__menu_link-menu">Главная</a></li>
-          <li><a href="#" class="header-top__menu_link-menu">Отзывы</a></li>
-          <li><a href="#" class="header-top__menu_link-menu">Контакты</a></li>
+          <li><a href="#" class="header-top__link-menu">Главная</a></li>
+          <li><a href="#" class="header-top__link-menu">Отзывы</a></li>
+          <li><a href="#" class="header-top__link-menu">Контакты</a></li>
         </ul>
       </div>
     </div>
@@ -61,12 +60,12 @@
       <div class="description__header">
         <h1>Интернет-магазин домашних цветов</h1>
       </div>
-      <p class="description__clear-fix-inner">
+      <p>
         <img
           src="gift.png"
           width="200"
           alt="Картинка подарок"
-          class="description__clear-fix-inner_good-inner-img"
+          class="description__good-inner-img"
         />
         Наш интернет-магазин предлагает огромный выбор комнатных растений и
         композиций из них. А также букеты с доставкой по Москве и области.
@@ -93,50 +92,44 @@
         качеством и нашим обслуживанием.
       </p>
     </div>
-    <div class="description__clearfix"></div>
+    <div class="clear-fix-inner"></div>
     <div class="container-menu">
-      <div class="container-menu__menu-lines">
+      <div class="menu-lines">
         <h1>Каталог товаров</h1>
-        <ul class="container-menu__menu-lines_menu-lines-item">
+        <ul class="menu-lines__menu-lines-item">
           <li>
-            <a href="#" class="container-menu__link-katalog"
-              >Комнатные растения</a
-            >
+            <a href="#" class="menu-lines__link-katalog">Комнатные растения</a>
           </li>
           <li>
-            <a href="#" class="container-menu__link-katalog"
+            <a href="#" class="menu-lines__link-katalog"
               >Искуственные растения</a
             >
           </li>
           <li>
-            <a href="#" class="container-menu__link-katalog"
-              >Горшки и удобрения</a
-            >
+            <a href="#" class="menu-lines__link-katalog">Горшки и удобрения</a>
           </li>
         </ul>
       </div>
-      <div class="container-menu__products-container">
+      <div class="products-container">
         <div>
           <h1>
             Более 5 000 растений и 10 000 кашпо на складах в Москве и
             Санкт-Петербурге
           </h1>
         </div>
-        <div class="container-menu__products">
-          <div class="container-menu__products_products-item">
-            <div
-              class="container-menu__products_animation-sun-appearance-item1"
-            >
+        <div class="products-container__products">
+          <div class="products-item">
+            <div class="products-item_animation-sun-appearance-item1">
               <img
                 src="sun.png"
                 width="100"
                 height="100"
-                class="container-menu__products_sun-appearance"
+                class="products-item_sun-appearance"
                 alt="Солнышко"
               />
             </div>
             <h2>Эписции</h2>
-            <p>
+            <p class="products-item__text">
               Эписция – цветок, являющий собой редкий пример комнатного
               растения, сочетающего декоративность листьев с красотой цветков.
               Листья эписции, несомненно, её главная роскошь. Они не просто
@@ -164,49 +157,46 @@
             </p>
             <a
               href="#"
-              class="container-menu__products_products-link container-menu__products_products-link-episcia"
+              class="products-item__products-link products-link_episcia"
             >
               <img src="episcia.jpg" alt="Эписция" />
               <span>Подробнее</span>
             </a>
           </div>
-          <div class="container-menu__products_products-item">
-            <div class="container-menu__products_img-bg">
+          <div class="products-item">
+            <div class="products-item_img-bg">
               <img
                 src="sun.png"
                 width="100"
                 height="100"
-                class="container-menu__products_img-bg-sun"
+                class="products-item_img-bg-sun"
                 alt="Солнышко"
               />
+              <h2>Аглаонемы</h2>
+              <p class="products-item__text">
+                Растение аглаонема (Aglaonema) является представителем семейства
+                ароидных.
+              </p>
             </div>
-            <h2>Аглаонемы</h2>
-            <p>
-              Растение аглаонема (Aglaonema) является представителем семейства
-              ароидных.
-            </p>
-
-            <a href="#" class="container-menu__products_products-link">
+            <a href="#" class="products-item__products-link">
               <img src="aglaonema.jpg" alt="Аглаонема" width="300" />
               <span>Подробнее</span>
             </a>
           </div>
-          <div class="container-menu__products_products-item">
-            <div class="container-menu__products_animation-delay">
-              <div
-                class="container-menu__products_animation-sun-appearance-item3"
-              >
+          <div class="products-item">
+            <div class="products-item_animation-delay">
+              <div class="products-item_animation-sun-appearance-item3">
                 <img
                   src="sun.png"
                   width="100"
                   height="100"
-                  class="container-menu__products_sun-appearance"
+                  class="products-item_sun-appearance"
                   alt="Солнышко"
                 />
               </div>
             </div>
             <h2>Бегонии</h2>
-            <p>
+            <p class="products-item__text">
               Бегония — многолетний цветок, который в естественных условиях
               произрастает в тропиках и субтропиках трех континентов — Африки,
               Азии и Америки. Этот эффектный и яркий цветок красив не только во
@@ -229,7 +219,7 @@
               отстоявшейся водой, в горшке обязательно должно быть отверстие для
               стекания излишка влаги на поддон.
             </p>
-            <a href="#" class="container-menu__products_products-link">
+            <a href="#" class="products-item__products-link">
               <img src="begonia.jpg" alt="<Бегония>" width="300" />
               <span>Подробнее</span>
             </a>
