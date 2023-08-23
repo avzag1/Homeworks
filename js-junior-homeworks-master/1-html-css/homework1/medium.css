@@ -1,0 +1,54 @@
+.container-menu {
+  display: block;
+  padding-left: 8px;
+}
+.header-top__menu li {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  background-color: rgb(253, 220, 237);
+  border: none;
+}
+.menu-lines__menu-lines-item {
+  width: 97%;
+}
+.menu-lines h1 {
+  width: 96%;
+}
+.header-top__container {
+  margin: 0 auto;
+  background-color: var(--menu-bg);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  max-height: 0;
+  transition: max-height 0.7s linear;
+}
+.header-top__menu a:hover {
+  background-color: var(--menu-hover);
+  width: 100%; /*Почему не срабатывает, и приходится применять padding-right: 100%?"*/
+  padding-right: 100%;
+}
+.header-top__lines-container {
+  padding: 40px 20px;
+  float: right;
+  cursor: pointer;
+  display: block;
+}
+.header-top {
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  background-color: var(--menu-bg);
+  box-shadow: 0 20px 20px -20px var(--menu-hover);
+  position: sticky;
+  top: 0;
+  z-index: 15;
+}
+.menu-lines {
+  padding-left: 2px;
+}
+.products-item {
+  pointer-events: none;
+}
