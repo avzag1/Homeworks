@@ -10,35 +10,9 @@
     <link rel="stylesheet" href="project.css" />
     <link rel="stylesheet" href="cosmetic.css" />
     <link rel="stylesheet" href="medium.css" media="screen and
-    (max-width:1110px)"/*Изменил ваше задание под мои размеры элементов
-    (увеличил max-width до 1100px), т.к. картинка с цветком в рамке при сжатии
-    экрана уходит вправо и появляется прокрутка. Корректно ли это? Как сделать
-    правильно?*/ />
+    (max-width:1110px)"/>
   </head>
   <body class="body" id="header">
-    <!--<div class="work">
-    <div class="work_item work_item1">
-    <h4 class="work_header"> Сайт-визитка</h4>
-    <div class="work_img">
-    <img src="./111.jpg" height="150" width="200" alt="Текст, если изображение не загрузится ">
-  </div>
-    <p class="work_text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti possimus minima excepturi beatae magnam adipisci mollitia rem veniam harum. A repellendus quas, quaerat modi nisi assumenda sint provident tempore ipsum?</p>
-  </div>
-  <div class="work_item work_item2">  
-  <h4 class="work_header">Лендинг</h4>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero incidunt, perferendis ea expedita et, molestias nihil fugit harum eum, tempora consequatur. Reprehenderit asperiores facilis saepe, odio molestias velit beatae rem!</p>
-  </div>
-  <div class="work_item work_item3">
-    <h4 class="work_header">Книга учета доходов</h4>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur quis placeat ipsa laudantium saepe odio quibusdam dolor libero exercitationem reprehenderit, facilis minima dicta vero dolorum eligendi culpa. Non, magni laudantium!</p>
-  </div>
-  </div>
-  <div class="video-background">
-    <video class="video"
-    src="555.mp4" type="video/mp4" autoplay muted loop width="500">
-  </video>
-  <div class="h2_title">Как ухаживать за цветами</div>
-</div>-->
     <div class="header-top">
       <a href="#" class="logo">Цветочный<br />дворик</a>
       <input class="menu-checkbox" id="menu-checkbox" type="checkbox" />
@@ -54,9 +28,12 @@
       </div>
     </div>
     <div class="header-base header-project">
+      <header>
       <h1>Интернет-магазин домашних цветов</h1>
+    </header>
     </div>
-    <p class="clear-fix-inner">
+    <main>
+    <p class="clear-fix-inner text-block">
       <img
         src="gift.png"
         width="200"
@@ -80,22 +57,23 @@
       <span class="italic"
         >В нашем каталоге представлены цены на все товарные позиции.</span
       >
-      Но если вы хотите нечто особенное, то можете заказать букет цветов на дом
-      или работу, скомплектовав его на свое усмотрение. Над каждой композицией
+      <mark class="mark-bg"> Но если вы хотите нечто особенное, то можете заказать букет цветов на дом
+      или работу, скомплектовав его на свое усмотрение.</mark> Над каждой композицией
       работают профессиональные флористы, которые уделяют особое внимание
       составу букета и его оформлению. Выбирайте цветы с бесплатной доставкой по
       Москве в магазине Flors.ru – и вы останетесь довольны их качеством и нашим
       обслуживанием.
     </p>
     <div class="container-menu">
-      <div class="menu-lines">
+      <nav class="menu-lines">
         <h1>Каталог товаров</h1>
         <ul class="menu-lines-item">
           <li><a href="#" class="link-katalog">Комнатные растения</a></li>
           <li><a href="#" class="link-katalog">Искуственные растения</a></li>
           <li><a href="#" class="link-katalog">Горшки и удобрения</a></li>
         </ul>
-      </div>
+      </nav>
+      <section>
       <div class="menu-blocks">
         <div class="products-container">
           <div>
@@ -103,7 +81,6 @@
               Более 5 000 растений и 10 000 кашпо на складах в Москве и
               Санкт-Петербурге
             </h1>
-          </div>
           <div class="products">
             <div class="products-item-project products-item-cosmetic">
               <div class="animation-sun-appearance-item1">
@@ -116,7 +93,7 @@
                 />
               </div>
               <h2>Эписции</h2>
-              <p>
+              <p class="text-block">
                 Эписция – цветок, являющий собой редкий пример комнатного
                 растения, сочетающего декоративность листьев с красотой цветков.
                 Листья эписции, несомненно, её главная роскошь. Они не просто
@@ -143,7 +120,10 @@
                 декоративным свойством растения.
               </p>
               <a href="#" class="products-link products-link-episcia">
+                <figure>
                 <img src="episcia.jpg" alt="Эписция" />
+                <figcaption class="picture-text italic">Эписция "Снежный барс"</figcaption>
+              </figure>
                 <span>Подробнее</span>
               </a>
             </div>
@@ -157,13 +137,16 @@
                   alt="Солнышко"
                 />
                 <h2>Аглаонемы</h2>
-                <p>
+                <p class="text-block">
                   Растение аглаонема (Aglaonema) является представителем
                   семейства ароидных.
                 </p>
               </div>
               <a href="#" class="products-link">
+                <figure>
                 <img src="aglaonema.jpg" alt="Аглаонема" width="300" />
+                <figcaption class="picture-text italic">Аглаонема "Амелия"</figcaption>
+              </figure>
                 <span>Подробнее</span>
               </a>
             </div>
@@ -180,7 +163,7 @@
                 </div>
               </div>
               <h2>Бегонии</h2>
-              <p>
+              <p class="text-block">
                 Бегония — многолетний цветок, который в естественных условиях
                 произрастает в тропиках и субтропиках трех континентов — Африки,
                 Азии и Америки. Этот эффектный и яркий цветок красив не только
@@ -203,7 +186,10 @@
                 предварительно отстоявшейся водой, в горшке обязательно должно
                 быть отверстие для стекания излишка влаги на поддон.
                 <a href="#" class="products-link">
+                  <figure>
                   <img src="begonia.jpg" alt="<Бегония>" width="300" />
+                  <figcaption class="picture-text italic">Ампельная бегония</figcaption>
+                </figure>
                   <span>Подробнее</span>
                 </a>
               </p>
@@ -211,13 +197,21 @@
           </div>
         </div>
       </div>
+    </section>
     </div>
-    <div class="uppercase reviews">
-      <p><a href="#">отзывы</a></p>
-    </div>
+<p class="text-page">Уход за домашними растениями требует знания специфика каждого их них.
+  <details class="text-page">
+    <summary>Подробнее</summary>
+    Для полива используется вода комнатной температуры. Поливать нужно достаточно обильно. Земля не должна полностью просыхать между поливами, но нельзя допускать и застой воды в поддоне.
+    Света эписции нужно много, но без прямых солнечных лучей. Лучше всего ей подходят восточные и западные окна. Можно разместить эписцию на южном окне, в этом случае её нужно притенять в период с 10 до 14 часов. На северных окнах света для растения мало, в зимнее время побеги будут сильно вытягиваться.
+  </details>
+</p>
+</main>
     <div class="fixed-to-top">
       <a href="#header">Вверх</a>
     </div>
+    <footer>
     <p class="footer">&copy; Все права защищены. 2023.</p>
+  </footer>
   </body>
 </html>
