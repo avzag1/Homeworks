@@ -58,15 +58,15 @@ a:hover {
 .header-top__lines-container {
   display: none;
 }
-.header-top__menu-checkbox_lines-item {
+.menu-checkbox__lines-item {
   background-color: var(--menu-icon);
   display: block;
   height: 2px;
   width: 36px;
   position: relative;
 }
-.header-top__menu-checkbox_lines-item::before,
-.header-top__menu-checkbox_lines-item::after {
+.menu-checkbox__lines-item::before,
+.menu-checkbox__lines-item::after {
   background-color: var(--menu-icon);
   display: block;
   width: 100%;
@@ -75,32 +75,32 @@ a:hover {
   content: "";
   transition: all 0.1s linear;
 }
-.header-top__menu-checkbox_lines-item::before {
+.menu-checkbox__lines-item::before {
   top: 12px;
 }
-.header-top__menu-checkbox_lines-item::after {
+.menu-checkbox__lines-item::after {
   top: -12px;
 }
-.header-top__menu-checkbox {
+.menu-checkbox {
   display: none;
 }
-.header-top__menu-checkbox:checked ~ .header-top__container {
+.menu-checkbox:checked ~ .header-top__container {
   max-height: 100%;
 }
-.header-top__menu-checkbox:checked
+.menu-checkbox:checked
   ~ .header-top__lines-container
-  .header-top__menu-checkbox_lines-item {
+  .menu-checkbox__lines-item {
   background: transparent;
 }
-.header-top__menu-checkbox:checked
+.menu-checkbox:checked
   ~ .header-top__lines-container
-  .header-top__menu-checkbox_lines-item::before {
+  .menu-checkbox__lines-item::before {
   transform: rotate(-45deg);
   top: 0;
 }
-.header-top__menu-checkbox:checked
+.menu-checkbox:checked
   ~ .header-top__lines-container
-  .header-top__menu-checkbox_lines-item::after {
+  .menu-checkbox__lines-item::after {
   transform: rotate(45deg);
   top: 0;
 }
@@ -204,7 +204,7 @@ a:hover {
   transition-timing-function: linear;
   position: relative;
 }
-.products-item__text{
+.products-item__text {
   text-align: justify;
   text-indent: 1.5em;
 }
@@ -234,35 +234,35 @@ a:hover {
 .products-item__products-link span {
   display: inline-block;
 }
-.products-item_img-bg {
+.products-item__img-bg {
   background-color: bisque;
   padding: 20px;
   height: 200px;
   background-image: url(777.jpg);
   position: relative;
 }
-.products-item_img-bg-sun {
+.products-item__img-bg-sun {
   position: absolute;
   right: -40px;
   top: -40px;
 }
-.products-item_animation-sun-appearance-item1 {
+.products-item__animation-sun-item1 {
   animation-name: sun-appearance;
   animation-duration: 8s;
   animation-timing-function: linear;
 }
-.products-item_animation-sun-appearance-item3 {
+.products-item__animation-sun-item3 {
   animation-name: sun-appearance;
   animation-duration: 8s;
   animation-delay: 8s;
   animation-timing-function: linear;
 }
-.products-item_animation-delay {
+.products-item__animation-delay {
   animation-name: delay;
   animation-duration: 8s;
   animation-timing-function: linear;
 }
-.products-item_sun-appearance {
+.products-item__sun {
   position: absolute;
   right: 120px;
   top: -20px;
