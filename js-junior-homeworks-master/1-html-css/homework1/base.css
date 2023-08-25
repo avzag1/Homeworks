@@ -41,9 +41,14 @@ a:hover {
   text-align: center;
   padding: 20px;
 }
-.products-container h1 {
+.products-container h2 {
+  font-size: 30px;
   margin-bottom: 30px;
   text-transform: uppercase;
+}
+.products h2{
+  font-size: 25px;
+  text-transform: none;
 }
 .products {
   display: flex;
@@ -101,53 +106,46 @@ a:hover {
 .container-menu {
   display: flex;
 }
-.menu-lines {
-  margin-top: 0px;
+.menu-nav {
   font-size: 35px;
-  text-align: left;
-  padding-left: 40px;
 }
-.menu-lines-item {
+.menu-nav ul{
+  display: inline-flex;
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  justify-content: space-around;
+}
+.menu-nav ul :hover{
+  color: green;/*Почему здесь нужно использовать ul, а не li? Как сделать, чтобы изменение цвета букв и появление pointer происходило при наведении на любую часть блока, а не только на слова?*/
+}
+.menu-item-nav{
   list-style: none;
-  width: 450px;
+  /*width: 450px;*/
   background-color: #f0faf3;
   padding-left: 0px;
 }
-.menu-lines-item li {
+.menu-item-nav li{
   font-size: 28px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  padding-bottom: 25px;
-  border-bottom: 1px solid;
-  position: relative;
-  display: block;
-  padding-top: 25px;
-  padding-left: 10px;
+  color: gray;
+padding-top: 15px;
+padding-bottom: 15px;
+  border: 1px solid rgb(227, 248, 237);
+  width: 100%;
 }
-.menu-lines-item {
-  padding-top: 25px;
+.menu-nav li:hover{
+  background-color: #ddf1e3;
 }
-.menu-lines h1 {
-  font-size: 1.5em;
-  background-color: rgb(216, 240, 194);
-  padding-left: 10px;
-  padding-top: 20px;
-  padding-bottom: 25px;
-  margin-bottom: 0px;
-  width: 440px;
-}
-.menu-lines ul {
-  margin-top: 0px;
-  padding: 0px;
-}
-.link-katalog:link {
-  color: black;
+.link-katalog-nav:link {
+  color: grey;
   font-weight: 100px;
 }
-.link-katalog:hover {
+.link-katalog-nav:hover {
   text-decoration: none;
 }
-.link-katalog:visited {
-  color: black;
+.link-katalog-nav:visited {
+  color: grey;
 }
 .logo:any-link {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -246,14 +244,17 @@ element-style {
 }
 .text-page {
   margin-left: 30px;
+  margin-right: 30px;
   text-indent: 20px;
 }
 .text-block {
   text-align: justify;
   text-indent: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .mark {
-  background-color: rgb(207, 240, 175);/*Почему не поменялся цвет без создания класса как в видеоуроке?*/
+  background-color: rgb(207, 240, 175);/*Почему цвет поменялся только через класс (в видеоуроке он менялся без класса)?*/
 }
 .mark-bg{
 background-color: rgb(207, 240, 175);

@@ -25,6 +25,7 @@
 }
 .header-project h1 {
   margin-top: 0;
+  margin-bottom: 0;
   box-shadow: 0 20px 20px -20px rgb(233, 99, 99);
   font-size: 50px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -51,4 +52,7 @@
 .container {
   position: relative;
   float: right;
+}
+.products-link-episcia{
+  width: 100%;
 }

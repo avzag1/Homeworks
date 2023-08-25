@@ -14,6 +14,7 @@
   </head>
   <body class="body" id="header">
     <div class="header-top">
+      <header>
       <a href="#" class="logo">Цветочный<br />дворик</a>
       <input class="menu-checkbox" id="menu-checkbox" type="checkbox" />
       <label for="menu-checkbox" class="lines-container"
@@ -28,10 +29,16 @@
       </div>
     </div>
     <div class="header-base header-project">
-      <header>
       <h1>Интернет-магазин домашних цветов</h1>
-    </header>
     </div>
+    <nav class="menu-nav">
+      <ul class="menu-item-nav">
+        <li><a href="#" class="link-katalog-nav">Комнатные растения</a></li>
+        <li><a href="#" class="link-katalog-nav">Искуственные растения</a></li>
+        <li><a href="#" class="link-katalog-nav">Горшки и удобрения</a></li>
+      </ul>
+    </nav>
+  </header>
     <main>
     <p class="clear-fix-inner text-block">
       <img
@@ -65,24 +72,25 @@
       обслуживанием.
     </p>
     <div class="container-menu">
-      <nav class="menu-lines">
-        <h1>Каталог товаров</h1>
+      <!--<nav class="menu-lines">
+        <h3>Каталог товаров</h3>
         <ul class="menu-lines-item">
           <li><a href="#" class="link-katalog">Комнатные растения</a></li>
           <li><a href="#" class="link-katalog">Искуственные растения</a></li>
           <li><a href="#" class="link-katalog">Горшки и удобрения</a></li>
         </ul>
-      </nav>
+      </nav>-->
       <section>
       <div class="menu-blocks">
         <div class="products-container">
           <div>
-            <h1>
+            <h2>
               Более 5 000 растений и 10 000 кашпо на складах в Москве и
               Санкт-Петербурге
-            </h1>
+            </h2>
           <div class="products">
-            <div class="products-item-project products-item-cosmetic">
+            <div class="products-item-base products-item-project products-item-cosmetic">
+              <section>
               <div class="animation-sun-appearance-item1">
                 <img
                   src="sun.png"
@@ -126,8 +134,10 @@
               </figure>
                 <span>Подробнее</span>
               </a>
+            </section>
             </div>
-            <div class="products-item-project products-item-cosmetic">
+            <div class="products-item-base products-item-project products-item-cosmetic">
+              <section>
               <div class="img-bg">
                 <img
                   src="sun.png"
@@ -149,9 +159,11 @@
               </figure>
                 <span>Подробнее</span>
               </a>
+            </section>
             </div>
-            <div class="products-item-project products-item-cosmetic">
-              <div class="animation-delay">
+           <div class="products-item-base products-item-project products-item-cosmetic">
+              <section>
+               <div class="animation-delay">
                 <div class="animation-sun-appearance-item3">
                   <img
                     src="sun.png"
@@ -161,7 +173,7 @@
                     alt="Солнышко"
                   />
                 </div>
-              </div>
+               </div>
               <h2>Бегонии</h2>
               <p class="text-block">
                 Бегония — многолетний цветок, который в естественных условиях
@@ -185,6 +197,7 @@
                 большинство тропических растений. Поливать ее надо мягкой,
                 предварительно отстоявшейся водой, в горшке обязательно должно
                 быть отверстие для стекания излишка влаги на поддон.
+              </p>
                 <a href="#" class="products-link">
                   <figure>
                   <img src="begonia.jpg" alt="<Бегония>" width="300" />
@@ -192,7 +205,7 @@
                 </figure>
                   <span>Подробнее</span>
                 </a>
-              </p>
+              </section>
             </div>
           </div>
         </div>
@@ -207,10 +220,10 @@
   </details>
 </p>
 </main>
-    <div class="fixed-to-top">
-      <a href="#header">Вверх</a>
-    </div>
     <footer>
+      <div class="fixed-to-top">
+        <a href="#header">Вверх</a>
+      </div>
     <p class="footer">&copy; Все права защищены. 2023.</p>
   </footer>
   </body>
