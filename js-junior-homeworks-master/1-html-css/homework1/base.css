@@ -119,11 +119,10 @@ a:hover {
   justify-content: space-around;
 }
 .menu-nav ul :hover{
-  color: green;/*Почему здесь нужно использовать ul, а не li? Как сделать, чтобы изменение цвета букв и появление pointer происходило при наведении на любую часть блока, а не только на слова?*/
+  color: green;
 }
 .menu-item-nav{
   list-style: none;
-  /*width: 450px;*/
   background-color: #f0faf3;
   padding-left: 0px;
 }
@@ -131,20 +130,22 @@ a:hover {
   font-size: 28px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: gray;
-padding-top: 15px;
-padding-bottom: 15px;
   border: 1px solid rgb(227, 248, 237);
   width: 100%;
 }
 .menu-nav li:hover{
   background-color: #ddf1e3;
 }
-/*.menu-nav ul li a{
+.link-katalog-nav, .link-katalog-nav:link, .link-katalog-nav:visited{
+  color: grey;
+  font-weight: 100px;
   display: block;
+  padding-top: 15px;
+padding-bottom: 15px;
 }
-.menu-nav ul li a :hover{
-  color: green;
-}*/
+.link-katalog-nav:hover{
+  text-decoration: none;
+}
 .link-katalog-nav:link {
   color: grey;
   font-weight: 100px;
@@ -245,10 +246,10 @@ element-style {
 }
 .picture-text {
   color: black;
-  opacity: 1; /*Почему не срабатывает?*/
+  opacity: 1;
 }
 .picture-text:hover {
-  text-decoration: none; /*Почему не срабатывает? Хочу убрать подчеркивание?*/
+  text-decoration: none;
 }
 .text-page {
   margin-left: 30px;
@@ -262,7 +263,7 @@ element-style {
   margin-right: 30px;
 }
 .mark {
-  background-color: rgb(207, 240, 175);/*Почему цвет поменялся только через класс (в видеоуроке он менялся без класса)?*/
+  background-color: rgb(207, 240, 175);
 }
 .mark-bg{
 background-color: rgb(207, 240, 175);
